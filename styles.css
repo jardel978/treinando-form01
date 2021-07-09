@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    font-family: 'Tourney', cursive, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #30580a;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-shadow: 9px 7px 5px rgba(246, 252, 253, 0.822);
+}
+
+.paragrafo-interno {
+    padding: 1%;
+    border-radius: 10px;
+    margin: 5%;
+    background-color: #bdd3d1d2;
+    box-shadow: 7px 5px 3px #ffcb77c4;
+}
+
+input {
+    margin: 3%;
+    width: 90%;
+    border-radius: 4px;
+    height: 27px;
+    border: none;
+    outline: none;
+    transition-duration: 1s;
+}
+
+
+.container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    font-family: 'Ubuntu', sans-seris;
+    text-align: justify;
+    border-radius: 3%;
+    width: 55%;
+    margin-top: 2%;
+    background-color: mintcream;
+	box-shadow: 9px 7px 5px rgba(95, 62, 62, 0.77);
+    padding: 2%;
+}
+
+.container-img {
+    background-image: url("https://assets.muralswallpaper.com/product-banner/LE5017GR01W.jpg");
+    background-position: center;
+}
+
+
+.div-entrar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 2%;
+    border-left: double 5px  rgb(172, 206, 212);
+    width: 45%;
+}
+
+.div-cadastro {
+    position: relative;
+    left: 0;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+button {
+    padding: 7px;
+    margin-left: 5%;
+    background-color: mintcream;
+    border-radius: 4px;
+    transition-duration: 2s;
+    border: none;
+    box-shadow: 5px 5px 3px #094215c4;
+}
+
+::placeholder{/* pseudo-elemento para estilizar o placeholder*/
+    color: rgb(24, 150, 167);
+}
+
+.icon {
+    position: relative;
+    top: 10px;
+    width: 40px;
+    margin-left: 25px;
+    transition-duration: 2s;
+}
+footer {
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-seris;
+    color: #FFFFFF;
+    padding: 2%;
+}
