@@ -1,20 +1,18 @@
 body {
+    background-size: 300% 300%;
     background: linear-gradient(45deg,rgb(4, 54, 71), rgba(40, 189, 189, 0.938), rgba(190, 240, 240, 0.808));
-    animation: colors 3s;
+    animation: colors 1s infinite;
 }
 
 @keyframes colors {
     0% { 
-        background-position: 50%;
-        opacity: 5%;
+        background-position: 0% 50%; 
     }
     50% {
-        background-position: 100% 50%;
-        opacity: 50%;
+        background-position: 100% 50%;     
     }
     100% {
         background-position: 0% 50%;
-        opacity: 100%;
     }
 }
 

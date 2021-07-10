@@ -12,6 +12,7 @@ h2 {
     margin-top: 5%;
     margin-bottom: 10%;
     text-shadow: 9px 7px 5px rgba(246, 252, 253, 0.822);
+
 }
 
 .paragrafo-interno {
@@ -83,6 +84,7 @@ button {
     transition-duration: 2s;
     border: none;
     box-shadow: 5px 5px 3px #094215c4;
+    padding: 3%;
 }
 
 ::placeholder{/* pseudo-elemento para estilizar o placeholder*/
